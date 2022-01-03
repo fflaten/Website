@@ -88,20 +88,6 @@ footer .container {
   align-items: center;
 }
 
-.hover {
-  -webkit-transition: all 0.3s ease-in; 
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-.hover:hover {
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
 a.social {
   padding: 0 0.5rem;
   font-size: 2rem;
@@ -109,24 +95,40 @@ a.social {
   filter: brightness(1.4);
 }
 
-a.social:hover {
-  filter: brightness(1.0);
+.hover {
+  -webkit-transition: all 0.3s ease-in; 
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
-.fa-github:hover {
-  color: #fafafa;
-}
+@media (hover: hover) {
+  .hover:hover {
+    -webkit-transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
 
-.fa-linkedin:hover {
-  color: #0a66c2;
-}
+  a.social:hover {
+    filter: brightness(1.0);
+  }
 
-.fa-twitter:hover {
-  color: #1d9bf0;
-}
+  .fa-github:hover {
+    color: #fafafa;
+  }
 
-.fa-stack-overflow:hover {
-  color: #F48024;
+  .fa-linkedin:hover {
+    color: #0a66c2;
+  }
+
+  .fa-twitter:hover {
+    color: #1d9bf0;
+  }
+
+  .fa-stack-overflow:hover {
+    color: #F48024;
+  }
 }
 
 @media screen and (max-width: 992px) {
