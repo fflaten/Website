@@ -146,18 +146,22 @@ a.social {
   }
 }
 
-@media screen and (max-width: 992px) {
-  main.container {
-    text-align: center;
+@media screen and (max-width: 732px) {
+  body {
+    align-items: flex-start;
   }
   
+  main {
+    text-align: center;
+    line-height: 1.4;
+  }
+ 
   main .columns {
     flex-direction: column;
   }
 
   main img.main-logo {
     max-height: 150px;
-    margin-right: 0;
   }
 
   main .column.right {  
