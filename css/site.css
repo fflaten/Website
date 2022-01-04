@@ -111,6 +111,12 @@ a.social {
   transition: all 0.3s ease-in;
 }
 
+@supports(padding: max(0px)) {
+  footer {
+    padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+  }
+}
+
 @media (hover: hover) {
   .hover:hover {
     -webkit-transition: all 0.3s ease-out; 
