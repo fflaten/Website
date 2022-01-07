@@ -1,0 +1,41 @@
+{
+    "background_color": "#5e9184",
+    "description": "Personal website for Frode Flaten",
+    "dir": "ltr",
+    "display": "standalone",
+    "name": "Frode Flaten",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "fflaten",
+    "start_url": "/",
+    "theme_color": "#18473C",
+    "icons": [
+        {
+            "src": "images/icon-192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icon-144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/icon-96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/icon-72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "images/icon-48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/icon-36.png",
+            "sizes": "36x36"
+        }
+    ],
+    "categories": [],
+    "screenshots": [],
+    "shortcuts": []
+}
